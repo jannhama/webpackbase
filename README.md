@@ -7,6 +7,11 @@ Starting point for new webpack projects. Bundles files under build folder.
 - Uses SASS for styling
 - No UI framework required
 
+## Run
+
+- ```npm install```
+- ```npm run bs-win```
+
 ## License
 
 MIT
