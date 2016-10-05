@@ -1,0 +1,13 @@
+@import "../modules/colors";
+
+.sample-text {
+  color: $text-color;
+  font-size: 2em;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.message-text {
+  color: $message-color;
+  font-size: 1em;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}

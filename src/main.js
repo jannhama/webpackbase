@@ -1,3 +1,5 @@
+require ('../sass/main.scss');
+
 import HelloWorld from './greeting.js';
 
 ( ()=> {

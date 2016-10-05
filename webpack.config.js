@@ -13,7 +13,9 @@ const config = {
             }
         } ),
         new webpack.optimize.OccurenceOrderPlugin(),
-        new webpack.optimize.DedupePlugin()
+        new webpack.optimize.DedupePlugin(),
+        new ExtractTextPlugin("main.css")
+
     ],
 
     devtool: "source-map",

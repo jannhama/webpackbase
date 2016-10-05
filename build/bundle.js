@@ -44,13 +44,15 @@
 /* 0 */
 /***/ function(module, exports, __webpack_require__) {
 
-	"use strict";
+	'use strict';
 	
 	var _greeting = __webpack_require__(1);
 	
 	var _greeting2 = _interopRequireDefault(_greeting);
 	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+	
+	__webpack_require__(2);
 	
 	(function () {
 	
@@ -99,6 +101,12 @@
 	
 	
 	module.exports = HelloWorld;
+
+/***/ },
+/* 2 */
+/***/ function(module, exports) {
+
+	// removed by extract-text-webpack-plugin
 
 /***/ }
 /******/ ]);
