@@ -1,6 +1,6 @@
-var webpack = require( 'webpack' );
-
-var config = {
+const webpack = require( 'webpack' );
+const ExtractTextPlugin = require('extract-text-webpack-plugin');
+const config = {
     entry: "./src/main.js",
     output: {
         path: __dirname + "/build",
@@ -47,7 +47,7 @@ if (process.env.NODE_ENV === 'bs') {
     config.plugins.push(new BrowserSyncPlugin({
         host: 'localhost',
         port: 3000,
-        server: {baseDir: ['.']}
+        server: {baseDir: ['./build']}
     }));
 }
 

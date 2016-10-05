@@ -2,7 +2,7 @@
   "name": "webpack-es6",
   "version": "1.1.0",
   "description": "Demo project with webpack and babel",
-  "repository": "",
+  "repository": "https://github.com/jannhama/webpackbase",
   "license": "MIT",
   "main": "webpack.config.js",
   "scripts": {
@@ -19,11 +19,14 @@
     "babel-preset-es2015": "6.16.0",
     "browser-sync": "2.17.0",
     "browser-sync-webpack-plugin": "1.1.3",
-    "webpack": "1.13.2",
-    "webpack-core": "0.6.8",
-    "webpack-dev-server": "1.16.1",
+    "css-loader": "0.25.0",
+    "extract-text-webpack-plugin": "1.0.1",
+    "file-loader": "0.9.0",
+    "node-sass": "3.10.1",
     "sass-loader": "4.0.2",
     "style-loader": "0.13.1",
-    "file-loader": "0.9.0"
+    "webpack": "1.13.2",
+    "webpack-core": "0.6.8",
+    "webpack-dev-server": "1.16.1"
   }
 }
